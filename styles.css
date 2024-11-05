@@ -202,6 +202,24 @@ header {
 }
 
 /* Call to action section styles */
+.sign-up-section {
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container {
+    display: flex;
+    flex: 0 0 auto;
+}
+
+.sign-up-container content {
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+}
 
 /* Footer styles */
 footer {
