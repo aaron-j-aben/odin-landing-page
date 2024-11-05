@@ -4,6 +4,8 @@ body {
     flex-direction: column;
     font-family: "Roboto", sans-serif;
     min-width: 850px;
+    margin: 0;
+    width: auto;
 }
 
 /* Header Styles */
