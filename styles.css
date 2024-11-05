@@ -15,7 +15,7 @@ header {
     flex-direction: column;
     justify-content: center;
     padding: 0 15%;
-    flex: 6 0 auto;
+    flex: 6 3 auto;
 }
 
 .navigation {
@@ -126,8 +126,10 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: start;
     padding: 34px;
     flex: 5 0 auto;
+    height: 450px;
 }
 
 .content h2 {
@@ -170,9 +172,10 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 4 0 0;
+    flex: 3 0 auto;
     background-color: #E5E7EB;
-    padding: 200px;
+    padding: 100px;
+    height: 200px;
 }
 
 .quote-container blockquote {
@@ -182,12 +185,15 @@ header {
     font-weight: 100;
     color: #1F2937;
     margin: 0;
-    width: 60%;
+    width: 50%;
 }
 
 .quote-container .quote-attr {
     text-align: right;
-    width: 60%;
+    width: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
 }
 
 /* Call to action section styles */
