@@ -11,6 +11,7 @@ header {
     display: flex;
     background-color: #1F2937;
     flex-direction: column;
+    justify-content: center;
     padding: 0 15%;
 }
 
@@ -43,14 +44,36 @@ header {
     color: #E5E7EB;
 }
 
-.hero {
-    display: flex;
-    margin: 12% 0;
+@media only screen and (max-width: 1299px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+        margin: 12% 0;
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+    }
+}
+
+@media only screen and (min-width: 1300px) { 
+    .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        margin: 12% 0;
+    }
+
+    .hero .intro {
+        flex: 0.75;
+    }
+
+    .hero .image {
+        flex: 0 0 auto;
+    }
 }
 
 .hero .intro {
-    flex: 0.8;
-    padding-right: 48px;
+    padding-right: 8px;
 }
 
 .hero .head {
@@ -70,11 +93,12 @@ header {
 
 .hero .image {
     display: flex;
-    flex: 1;
     background-color: gray;
     color: white;
     justify-content: center;
     align-items: center;
+    width: 650px;
+    height: 310px;
 }
 
 .hero button {
