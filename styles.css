@@ -1,12 +1,14 @@
 /* Odin Project Landing Page Style Sheet */
 body {
+    /*
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    */
     font-family: "Roboto", sans-serif;
     min-width: 700px;
     margin: 0;
     height: 200vh;
-    justify-content: space-between;
 }
 
 /* Header Styles */
@@ -202,23 +204,28 @@ header {
 }
 
 /* Call to action section styles */
-.sign-up-section {
+.sign-up {
     display: flex;
     flex-direction: column;
-    flex: 0;
+    flex: 0 auto;
     justify-content: center;
     align-items: center;
 }
 
 .sign-up-container {
     display: flex;
-    flex: 0 0 auto;
+    justify-content: space-between;
+    flex: 0 auto;
+    width: 60%;
+    height: 50%;
+    padding: 5% 10%;
 }
 
-.sign-up-container content {
+.sign-up-container .sign-up-content {
     display: flex;
     flex-direction: column;
-    flex: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Footer styles */
