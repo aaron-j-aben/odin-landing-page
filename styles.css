@@ -172,10 +172,9 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 3 0 auto;
+    flex: 1 0 auto;
     background-color: #E5E7EB;
     padding: 100px;
-    height: 200px;
 }
 
 .quote-container blockquote {
