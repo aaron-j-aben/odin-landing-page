@@ -3,9 +3,10 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
-    min-width: 850px;
+    min-width: 700px;
     margin: 0;
     height: 200vh;
+    justify-content: space-between;
 }
 
 /* Header Styles */
@@ -15,7 +16,7 @@ header {
     flex-direction: column;
     justify-content: center;
     padding: 0 15%;
-    flex: 6 3 auto;
+    flex: 0 0 auto;
 }
 
 .navigation {
@@ -64,6 +65,7 @@ header {
         justify-content: space-between;
         align-items: start;
         margin: 12% 0;
+        flex: 0;
     }
 
     .hero .intro {
@@ -86,6 +88,7 @@ header {
     padding-top: 0;
     padding-bottom: 0;
     margin: 0;
+    flex: 1;
 }
 
 .hero .text {
@@ -128,7 +131,7 @@ header {
     align-items: center;
     justify-content: start;
     padding: 34px;
-    flex: 5 0 auto;
+    flex: 0 0 auto;
     height: 450px;
 }
 
@@ -137,19 +140,22 @@ header {
     font-weight: 900;
     color: #1F2937;
     margin-top: 0;
-    margin-bottom: 34px;
+    margin-bottom: 4px;
+    flex: 1;
 }
 
 .content .row-container {
     display: flex;
     justify-content: center;
     gap: 44px;
+    flex: 4;
 }
 
 .row-container .media-obj {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1;
 }
 
 .media-obj .image {
@@ -172,7 +178,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 1 0 auto;
+    flex: 0 0 auto;
     background-color: #E5E7EB;
     padding: 100px;
 }
