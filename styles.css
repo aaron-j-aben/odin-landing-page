@@ -5,6 +5,7 @@ body {
     font-family: "Roboto", sans-serif;
     min-width: 850px;
     margin: 0;
+    height: 200vh;
 }
 
 /* Header Styles */
@@ -187,4 +188,16 @@ header {
 .quote-container .quote-attr {
     text-align: right;
     width: 60%;
+}
+
+/* Call to action section styles */
+
+/* Footer styles */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: #E5E7EB;
+    background-color: #1F2937;
 }
