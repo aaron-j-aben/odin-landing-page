@@ -8,7 +8,6 @@ body {
     font-family: "Roboto", sans-serif;
     min-width: 700px;
     margin: 0;
-    height: 200vh;
 }
 
 /* Header Styles */
@@ -50,7 +49,7 @@ header {
     color: #E5E7EB;
 }
 
-@media only screen and (max-width: 1299px) {
+@media only screen and (max-width: 1449px) {
     .hero {
         display: flex;
         flex-direction: column;
@@ -61,7 +60,7 @@ header {
     }
 }
 
-@media only screen and (min-width: 1300px) { 
+@media only screen and (min-width: 1450px) { 
     .hero {
         display: flex;
         justify-content: space-between;
@@ -210,22 +209,49 @@ header {
     flex: 0 auto;
     justify-content: center;
     align-items: center;
+    height: 400px;
 }
 
 .sign-up-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex: 0 auto;
-    width: 60%;
-    height: 50%;
-    padding: 5% 10%;
+    width: 50%;
+    height: 30%;
+    padding: 1% 5%;
+    box-sizing: content-box;
+    background-color: #3882F6;
+    border-radius: 12px;
 }
 
 .sign-up-container .sign-up-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+    color:#E5E7EB;
+}
+
+.sign-up-content h3 {
+    text-align: start;
+    margin: 0;
+    flex: 1;
+}
+
+.sign-up-content p {
+    margin: 0;
+    flex: 1;
+}
+
+.sign-up-container button {
+    background-color: #3882F6;
+    border: 2px #E5E7EB solid;
+    border-radius: 10px;
+    height: 30%;
+    width: 15%;
+    color: #E5E7EB;
+    flex: 0 0 auto
 }
 
 /* Footer styles */
