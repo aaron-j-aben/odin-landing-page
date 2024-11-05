@@ -125,13 +125,15 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 30px;
 }
 
 .content h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    margin: 30px;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 .content .row-container {
