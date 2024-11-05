@@ -1,1 +1,32 @@
 /* Odin Project Landing Page Style Sheet */
+/* Header Styles */
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 200px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navigation .links {
+    display: flex;
+}
+
+.navigation li {
+    list-style-type: none;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+/* Content Styles */
+
