@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
+    min-width: 850px;
 }
 
 /* Header Styles */
@@ -29,6 +30,8 @@ header {
 
 .navigation .links {
     display: flex;
+    justify-content: space-between;
+    gap: 36px;
 }
 
 .navigation li {
@@ -62,7 +65,7 @@ header {
 .hero .text {
     font-size: 18px;
     color: #E5E7EB;
-    margin: 8px 0;
+    margin: 10px 0;
 }
 
 .hero .image {
